@@ -134,6 +134,12 @@ h2 {
 
 .about h1 { font-size: 2rem; margin: 40px 0 24px; }
 .about p { font-size: 1.1rem; margin: 0 0 20px; }
+.whois h2 {
+  font: 600 1.1rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-block-start: 56px;
+}
 
 footer {
   border-block-start: 1px solid var(--line);

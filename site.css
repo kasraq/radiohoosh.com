@@ -1,4 +1,14 @@
-/* Radio Hoosh website: the colours of the cover art (navy, cream, orange), system fonts only. */
+/* Radio Hoosh website: the colours of the cover art (navy, cream, orange). Latin text uses the
+   system font; Persian text uses Vazirmatn, the font of the Farsi logo (self-hosted, SIL OFL:
+   vazirmatn-OFL.txt). unicode-range keeps browsers from fetching it for pages with no Persian. */
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("vazirmatn.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+200C-200F, U+FB50-FDFF, U+FE70-FEFF;
+}
+
 :root {
   --navy: #1F2C6A;
   --navy-deep: #18235A;
@@ -20,12 +30,13 @@ body {
   flex-direction: column;
   background: var(--navy);
   color: var(--cream);
-  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "Vazirmatn", Tahoma, Roboto,
+  font: 17px/1.65 "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Roboto,
     "Noto Sans Arabic", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 [lang="fa"] body, html[lang="fa"] { line-height: 1.9; }
+html[lang="fa"] .brand, html[lang="fa"] .hero h1 { font-weight: 700; } /* as in the logo */
 
 a { color: var(--orange); text-decoration: none; }
 a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }

@@ -108,26 +108,6 @@ h2 {
 }
 [lang="fa"] h2 { letter-spacing: 0; font-size: 1rem; }
 
-.rss {
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 4px 24px 16px;
-  background: var(--card);
-}
-.rss h2 { margin-block-start: 20px; }
-.rss p { margin: 8px 0; color: var(--cream-dim); }
-.feed { overflow-wrap: anywhere; text-align: start; }
-.feed code {
-  display: inline-block;
-  font: 0.92rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  color: var(--cream);
-  background: var(--navy-deep);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 8px 12px;
-  user-select: all;
-}
-
 .episode {
   border-block-start: 1px solid var(--line);
   padding-block: 28px;
@@ -162,6 +142,7 @@ footer {
   font-size: 0.85rem;
 }
 footer p { margin: 4px 0; }
+footer .rss { overflow-wrap: anywhere; }
 
 @media (max-width: 560px) {
   body { font-size: 16px; }

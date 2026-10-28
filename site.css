@@ -1,0 +1,160 @@
+/* Radio Hoosh website: the colours of the cover art (navy, cream, orange), system fonts only. */
+:root {
+  --navy: #1F2C6A;
+  --navy-deep: #18235A;
+  --cream: #F5EDE0;
+  --cream-dim: rgba(245, 237, 224, 0.72);
+  --orange: #F2A63C;
+  --line: rgba(245, 237, 224, 0.14);
+  --card: rgba(255, 255, 255, 0.035);
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--navy); }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--navy);
+  color: var(--cream);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "Vazirmatn", Tahoma, Roboto,
+    "Noto Sans Arabic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+[lang="fa"] body, html[lang="fa"] { line-height: 1.9; }
+
+a { color: var(--orange); text-decoration: none; }
+a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; border-radius: 4px; }
+
+.top, main, footer {
+  width: 100%;
+  max-width: 760px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-block: 24px;
+  border-block-end: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--cream);
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
+}
+.brand:hover { text-decoration: none; }
+.brand .mark { width: 28px; height: auto; }
+
+nav { display: flex; gap: 6px; flex-wrap: wrap; }
+nav a {
+  color: var(--cream-dim);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+nav a:hover { color: var(--cream); text-decoration: none; background: var(--card); }
+nav a[aria-current="page"] { color: var(--cream); background: var(--card); }
+nav a.switch {
+  color: var(--orange);
+  border: 1px solid rgba(242, 166, 60, 0.45);
+  margin-inline-start: 6px;
+}
+
+main { flex: 1; padding-block: 24px 48px; }
+
+.hero { text-align: center; padding-block: 56px 40px; }
+.hero .mark { width: 92px; height: auto; }
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.2rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 24px 0 8px;
+}
+.tagline { color: var(--cream-dim); font-size: 1.15rem; margin: 0; }
+
+h1 { font-weight: 600; }
+h2 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin: 48px 0 16px;
+}
+[lang="fa"] h2 { letter-spacing: 0; font-size: 1rem; }
+
+.rss {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 4px 24px 16px;
+  background: var(--card);
+}
+.rss h2 { margin-block-start: 20px; }
+.rss p { margin: 8px 0; color: var(--cream-dim); }
+.feed { overflow-wrap: anywhere; text-align: start; }
+.feed code {
+  display: inline-block;
+  font: 0.92rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--cream);
+  background: var(--navy-deep);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  user-select: all;
+}
+
+.episode {
+  border-block-start: 1px solid var(--line);
+  padding-block: 28px;
+}
+.episode:last-child { border-block-end: 1px solid var(--line); }
+.episode time { color: var(--cream-dim); font-size: 0.85rem; }
+.episode h3 { font-size: 1.35rem; font-weight: 600; line-height: 1.35; margin: 6px 0 10px; }
+.episode p { color: var(--cream-dim); margin: 0 0 16px; }
+
+.actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn {
+  display: inline-block;
+  padding: 9px 22px;
+  border-radius: 999px;
+  background: var(--orange);
+  color: var(--navy);
+  font-weight: 600;
+  border: 1px solid var(--orange);
+}
+.btn:hover { text-decoration: none; filter: brightness(1.06); }
+.btn.ghost { background: transparent; color: var(--orange); }
+
+.empty { color: var(--cream-dim); font-style: italic; }
+
+.about h1 { font-size: 2rem; margin: 40px 0 24px; }
+.about p { font-size: 1.1rem; margin: 0 0 20px; }
+
+footer {
+  border-block-start: 1px solid var(--line);
+  padding-block: 24px 40px;
+  color: var(--cream-dim);
+  font-size: 0.85rem;
+}
+footer p { margin: 4px 0; }
+
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .top { padding-block: 16px; }
+  .hero { padding-block: 32px 24px; }
+  .episode h3 { font-size: 1.2rem; }
+}

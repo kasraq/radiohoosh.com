@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#1F2C6A">
+<title>پیشنهاد موضوع · رادیو هوش</title>
+<meta name="description" content="دوست دارید در اپیزودهای بعدی درباره‌ی چه چیزی صحبت کنیم؟ موضوعی از هوش مصنوعی یا فناوری را که می‌خواهید بهتر بشناسید برایمان بنویسید؛ شاید اپیزودی درباره‌اش بسازیم. اگر بسازیم، میزبان‌ها در برنامه از شما تشکر می‌کنند (بدون بردن نامتان).">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="رادیو هوش">
+<meta property="og:title" content="پیشنهاد موضوع · رادیو هوش">
+<meta property="og:description" content="دوست دارید در اپیزودهای بعدی درباره‌ی چه چیزی صحبت کنیم؟ موضوعی از هوش مصنوعی یا فناوری را که می‌خواهید بهتر بشناسید برایمان بنویسید؛ شاید اپیزودی درباره‌اش بسازیم. اگر بسازیم، میزبان‌ها در برنامه از شما تشکر می‌کنند (بدون بردن نامتان).">
+<meta property="og:url" content="https://radiohoosh.com/fa/suggest.html">
+<meta property="og:locale" content="fa_IR">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://radiohoosh.com/fa/suggest.html">
+<link rel="alternate" hreflang="en" href="https://radiohoosh.com/suggest.html">
+<link rel="alternate" hreflang="fa" href="https://radiohoosh.com/fa/suggest.html">
+<link rel="alternate" hreflang="x-default" href="https://radiohoosh.com/suggest.html">
+<link rel="alternate" type="application/rss+xml" title="رادیو هوش" href="https://feeds.transistor.fm/66797f97-a07e-480a-978d-c1027ff4a525">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../site.css">
+</head>
+<body>
+<header class="top">
+<a class="brand" href="./"><svg class="mark" viewBox="-1 0 94 100" width="47" height="50" aria-hidden="true" focusable="false"><g transform="translate(92 0) scale(-1 1)"><path d="M41 0A42 42 0 0 0 41 84Z" fill="#F5EDE0"/><path d="M51 16A42 42 0 0 1 51 100Z" fill="#F2A63C"/></g></svg><span>رادیو هوش</span></a>
+<nav><a href="./">اپیزودها</a><a href="suggest.html" aria-current="page">پیشنهاد موضوع</a><a href="about.html">درباره</a><a class="switch" href="../suggest.html" lang="en" hreflang="en">English</a></nav>
+</header>
+<main>
+<section class="suggest"><h1>پیشنهاد موضوع</h1><p>دوست دارید در اپیزودهای بعدی درباره‌ی چه چیزی صحبت کنیم؟ موضوعی از هوش مصنوعی یا فناوری را که می‌خواهید بهتر بشناسید برایمان بنویسید؛ شاید اپیزودی درباره‌اش بسازیم. اگر بسازیم، میزبان‌ها در برنامه از شما تشکر می‌کنند (بدون بردن نامتان).</p><form id="suggest-form" class="suggest-form" autocomplete="off" data-sending="در حال ارسال…" data-thanks="سپاس! همه‌ی پیشنهادها را می‌خوانیم." data-error="متأسفیم، ارسال نشد. لطفاً بعداً دوباره امتحان کنید." data-too-many="چند پیشنهاد فرستاده‌اید؛ لطفاً یک ساعت دیگر دوباره امتحان کنید."><input type="hidden" name="lang" value="fa"><label for="topic">موضوع</label><input id="topic" name="topic" required minlength="3" maxlength="200" placeholder="مثلاً: مدل‌های هوش مصنوعی چطور استدلال کردن را یاد می‌گیرند؟"><label for="details">نکته‌هایی که دوست دارید به آن بپردازیم (اختیاری)</label><textarea id="details" name="details" rows="4" maxlength="1000"></textarea><label for="name">نام شما (اختیاری، فقط برای ما)</label><input id="name" name="name" maxlength="60"><div class="trap" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div><p class="note">لطفاً اطلاعات شخصی ننویسید. پیشنهادها فقط برای انتخاب موضوع اپیزودها نگه‌داری می‌شوند.</p><button type="submit" class="btn">ارسال</button><p class="result" role="status" aria-live="polite"></p></form><p><a class="btn ghost" href="https://x.com/intent/post?text=%40radiohoosh_en+%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF+%D9%85%D9%88%D8%B6%D9%88%D8%B9+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%B1%D8%A7%D8%AF%DB%8C%D9%88+%D9%87%D9%88%D8%B4%3A+" target="_blank" rel="noopener">یا در X پیشنهاد دهید</a></p></section><script>
+(function () {
+  var form = document.getElementById("suggest-form");
+  var result = form.querySelector(".result");
+  var button = form.querySelector("button");
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var data = {};
+    new FormData(form).forEach(function (v, k) { data[k] = v; });
+    button.disabled = true;
+    result.textContent = form.dataset.sending;
+    fetch("/api/suggest", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    }).then(function (r) {
+      if (r.ok) { form.reset(); result.textContent = form.dataset.thanks; }
+      else { result.textContent = r.status === 429 ? form.dataset.tooMany : form.dataset.error; }
+    }).catch(function () {
+      result.textContent = form.dataset.error;
+    }).then(function () { button.disabled = false; });
+  });
+})();
+</script>
+</main>
+<footer>
+<p>اپیزودها با هوش مصنوعی و Google NotebookLM ساخته می‌شوند.</p>
+<p class="rss">RSS: <a href="https://feeds.transistor.fm/66797f97-a07e-480a-978d-c1027ff4a525" rel="noopener" dir="ltr">https://feeds.transistor.fm/66797f97-a07e-480a-978d-c1027ff4a525</a></p>
+<p>© 2026 رادیو هوش</p>
+</footer>
+</body>
+</html>

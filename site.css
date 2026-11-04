@@ -156,3 +156,26 @@ footer .rss { overflow-wrap: anywhere; }
   .hero { padding-block: 32px 24px; }
   .episode h3 { font-size: 1.2rem; }
 }
+
+.cta { color: var(--cream-dim); margin: 20px 0 0; }
+.suggest h1 { font-size: 2rem; margin: 40px 0 16px; }
+.suggest > p { font-size: 1.05rem; }
+.suggest-form { display: flex; flex-direction: column; gap: 8px; margin: 24px 0; }
+.suggest-form label { font-weight: 600; margin-top: 8px; }
+.suggest-form input, .suggest-form textarea {
+  font: inherit;
+  color: var(--cream);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.suggest-form input:focus, .suggest-form textarea:focus { border-color: var(--orange); outline: none; }
+.suggest-form .btn { align-self: flex-start; margin-top: 8px; cursor: pointer; font: inherit; }
+.suggest-form .btn:disabled { opacity: 0.6; cursor: default; }
+.suggest-form .note { color: var(--cream-dim); font-size: 0.9rem; margin: 8px 0 0; }
+.suggest-form .result { min-height: 1.5em; margin: 0; }
+/* the spam trap: out of sight without moving off-page (left: -9999px widens a right-to-left page) */
+.trap { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

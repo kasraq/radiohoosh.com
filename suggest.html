@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#1F2C6A">
+<title>Suggest a topic · Radio Hoosh</title>
+<meta name="description" content="What should we explore next? Tell us the AI or tech topic you want to understand, and we may make an episode of it. If we do, the hosts will thank you on the show (without your name).">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Radio Hoosh">
+<meta property="og:title" content="Suggest a topic · Radio Hoosh">
+<meta property="og:description" content="What should we explore next? Tell us the AI or tech topic you want to understand, and we may make an episode of it. If we do, the hosts will thank you on the show (without your name).">
+<meta property="og:url" content="https://radiohoosh.com/suggest.html">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://radiohoosh.com/suggest.html">
+<link rel="alternate" hreflang="en" href="https://radiohoosh.com/suggest.html">
+<link rel="alternate" hreflang="fa" href="https://radiohoosh.com/fa/suggest.html">
+<link rel="alternate" hreflang="x-default" href="https://radiohoosh.com/suggest.html">
+<link rel="alternate" type="application/rss+xml" title="Radio Hoosh" href="https://feeds.transistor.fm/radio-hoosh-ai-deep-dives">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top">
+<a class="brand" href="./"><svg class="mark" viewBox="-1 0 94 100" width="47" height="50" aria-hidden="true" focusable="false"><path d="M41 0A42 42 0 0 0 41 84Z" fill="#F5EDE0"/><path d="M51 16A42 42 0 0 1 51 100Z" fill="#F2A63C"/></svg><span>Radio Hoosh</span></a>
+<nav><a href="./">Episodes</a><a href="suggest.html" aria-current="page">Suggest a topic</a><a href="about.html">About</a><a class="switch" href="fa/suggest.html" lang="fa" hreflang="fa">فارسی</a></nav>
+</header>
+<main>
+<section class="suggest"><h1>Suggest a topic</h1><p>What should we explore next? Tell us the AI or tech topic you want to understand, and we may make an episode of it. If we do, the hosts will thank you on the show (without your name).</p><form id="suggest-form" class="suggest-form" autocomplete="off" data-sending="Sending…" data-thanks="Thank you! We read every suggestion." data-error="Sorry, that didn&#x27;t go through. Please try again later." data-too-many="You&#x27;ve sent several suggestions already; please try again in an hour."><input type="hidden" name="lang" value="en"><label for="topic">Topic</label><input id="topic" name="topic" required minlength="3" maxlength="200" placeholder="e.g. How do AI models learn to reason?"><label for="details">Anything you want us to cover (optional)</label><textarea id="details" name="details" rows="4" maxlength="1000"></textarea><label for="name">Your name (optional, only for us)</label><input id="name" name="name" maxlength="60"><div class="trap" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div><p class="note">Please don&#x27;t include personal details. Suggestions are kept only to choose episode topics.</p><button type="submit" class="btn">Send</button><p class="result" role="status" aria-live="polite"></p></form><p><a class="btn ghost" href="https://x.com/intent/post?text=%40radiohoosh_en+Topic+idea+for+Radio+Hoosh%3A+" target="_blank" rel="noopener">Or suggest it on X</a></p></section><script>
+(function () {
+  var form = document.getElementById("suggest-form");
+  var result = form.querySelector(".result");
+  var button = form.querySelector("button");
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var data = {};
+    new FormData(form).forEach(function (v, k) { data[k] = v; });
+    button.disabled = true;
+    result.textContent = form.dataset.sending;
+    fetch("/api/suggest", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    }).then(function (r) {
+      if (r.ok) { form.reset(); result.textContent = form.dataset.thanks; }
+      else { result.textContent = r.status === 429 ? form.dataset.tooMany : form.dataset.error; }
+    }).catch(function () {
+      result.textContent = form.dataset.error;
+    }).then(function () { button.disabled = false; });
+  });
+})();
+</script>
+</main>
+<footer>
+<p>Episodes are AI-generated with Google NotebookLM.</p>
+<p class="rss">RSS: <a href="https://feeds.transistor.fm/radio-hoosh-ai-deep-dives" rel="noopener" dir="ltr">https://feeds.transistor.fm/radio-hoosh-ai-deep-dives</a></p>
+<p>© 2026 Radio Hoosh</p>
+</footer>
+</body>
+</html>

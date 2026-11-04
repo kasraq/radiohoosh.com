@@ -1,5 +1,5 @@
 // POST /api/suggest - a visitor suggests a topic (the website's "Suggest a topic" form).
-// Stores {topic, details, name, lang, at}; the factory's listener line reads them through
+// Stores {topic, details, name, on_air, lang, at}; the factory's listener line reads them through
 // /api/suggestions. No IP address is stored: only a salted hash, for one hour, to rate-limit.
 
 const crypto = require("node:crypto");
@@ -38,6 +38,9 @@ module.exports = async (req, res) => {
     topic,
     details: clean(body.details, 1000),
     name: clean(body.name, 60),
+    // The form says the hosts may say the name on the show; older forms promised they would
+    // not, so only a form that sends on_air=1 lets the episode thank the listener by name.
+    on_air: body.on_air === "1",
     lang: body.lang === "fa" ? "fa" : "en",
     at: new Date().toISOString(),
   };

@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [Digital euro and AI agents: ECB explores AI-powered payments](https://share.transistor.fm/s/5e74e53f): What is the digital euro, and why is the European Central Bank inviting private firms to test AI agents and public services on its digital euro innovation platform? (2026-11-04)
 - [Siri AI in iOS 27.3: Apple Opens Siri Actions to Third-Party Apps](https://share.transistor.fm/s/90a7694c): With iOS 27.3, Apple lets developers connect any app to Siri's new AI, so Siri can understand everyday requests and take actions inside apps from other companies. (2026-11-04)
 - [AI in Schools: Is Education Failing Students in an AI-Driven World?](https://share.transistor.fm/s/862f7e58): Young people increasingly trust AI over humans, even for fact-checking. Are schools teaching students to use AI wisely, and what would a better framework look like? (2026-11-03)
 - [OpenAI LifeVal: A New Benchmark for AI Help With Everyday Life Tasks](https://share.transistor.fm/s/9d9cf55c): OpenAI released LifeVal, a test of how well AI helps with ordinary life tasks like finding childcare, managing money and filling out government paperwork. (2026-11-03)
@@ -48,6 +49,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند](https://share.transistor.fm/s/fab4cc23): یورو دیجیتال چیست و چرا بانک مرکزی اروپا (ECB) از شرکت‌های خصوصی دعوت کرده تا پرداخت با عامل‌های هوش مصنوعی و خدمات عمومی را روی پلتفرم نوآوری یورو دیجیتال آزمایش کنند؟ (2026-11-04)
 - [Siri در iOS 27.3: هوش مصنوعی اپل حالا داخل اپ‌های دیگر کار می‌کند](https://share.transistor.fm/s/31b011a5): با iOS 27.3، اپل به توسعه‌دهنده‌ها اجازه می‌دهد هر اپی را به هوش مصنوعی جدید Siri وصل کنند تا Siri درخواست‌های روزمره را بفهمد و داخل اپ‌های شرکت‌های دیگر هم کار انجام دهد. (2026-11-04)
 - [هوش مصنوعی در مدارس: آیا آموزش از دانش‌آموزان عقب مانده است؟](https://share.transistor.fm/s/61c22aec): جوان‌ها حتی برای راستی‌آزمایی اطلاعات بیشتر به هوش مصنوعی اعتماد دارند تا به انسان‌ها. آیا مدرسه‌ها استفاده‌ی درست از AI را به دانش‌آموزان یاد می‌دهند؟ (2026-11-03)
 - [LifeVal از OpenAI: آزمونی برای سنجش کمک هوش مصنوعی در کارهای روزمره](https://share.transistor.fm/s/3e787165): OpenAI آزمون تازه‌ای به نام LifeVal منتشر کرده که می‌سنجد هوش مصنوعی چقدر در کارهای روزمره مثل پیدا کردن مهدکودک، مدیریت پول و پر کردن فرم‌های اداری کمک می‌کند. (2026-11-03)

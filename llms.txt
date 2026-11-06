@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [Inkling 2 Small: Thinking Machines Lab Releases a Lighter AI Model](https://share.transistor.fm/s/0cb4d81e): Thinking Machines Lab, the AI company founded by former OpenAI CTO Mira Murati, has released Inkling 2 Small, a smaller, cheaper and faster version of its Inkling 2 model. (2026-11-06)
 - [AI Model Verification: Is It Really Claude Opus Answering You?](https://share.transistor.fm/s/c0f9e3d4): When a chatbot says it runs on a model like Claude Opus, how can you check? We explore model fingerprinting, cryptographic proofs of inference, and what these methods can and cannot prove today. (2026-11-06)
 - [Apple Cuts Employee AI Budgets as Companies Rethink AI Tool Costs](https://share.transistor.fm/s/f48868cc): Apple is reducing how much its employees, including engineers, can spend on AI tools. The hosts discuss the move as a sign that companies are rethinking the cost of AI. (2026-11-05)
 - [Digital euro and AI agents: ECB explores AI-powered payments](https://share.transistor.fm/s/5e74e53f): What is the digital euro, and why is the European Central Bank inviting private firms to test AI agents and public services on its digital euro innovation platform? (2026-11-04)
@@ -51,6 +52,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [Inkling 2 Small؛ مدل سبک‌تر و ارزان‌تر Thinking Machines Lab](https://share.transistor.fm/s/4b5b36c5): شرکت Thinking Machines Lab به رهبری Mira Murati، مدیر ارشد فناوری سابق OpenAI، مدل Inkling 2 Small را منتشر کرد؛ نسخه‌ای کوچک‌تر، سریع‌تر و کم‌هزینه‌تر از Inkling 2. (2026-11-06)
 - [Claude Opus یا مدل ارزان‌تر؟ چطور بفهمیم کدام هوش مصنوعی جواب می‌دهد](https://share.transistor.fm/s/be747ade): وقتی یک چت‌بات می‌گوید با مدلی مثل Claude Opus کار می‌کند، چطور می‌شود این ادعا را بررسی کرد؟ از انگشت‌نگاری مدل تا اثبات رمزنگاری‌شده، و اینکه این روش‌ها امروز چه چیزی را واقعاً ثابت می‌کنند. (2026-11-06)
 - [Apple بودجه هوش مصنوعی کارمندانش را کم می‌کند](https://share.transistor.fm/s/aa5d57fd): Apple سقف هزینه کارمندان و مهندسانش برای ابزارهای هوش مصنوعی را کاهش می‌دهد. در این قسمت بررسی می‌کنیم این تصمیم درباره هزینه واقعی AI برای شرکت‌ها چه می‌گوید. (2026-11-05)
 - [یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند](https://share.transistor.fm/s/fab4cc23): یورو دیجیتال چیست و چرا بانک مرکزی اروپا (ECB) از شرکت‌های خصوصی دعوت کرده تا پرداخت با عامل‌های هوش مصنوعی و خدمات عمومی را روی پلتفرم نوآوری یورو دیجیتال آزمایش کنند؟ (2026-11-04)

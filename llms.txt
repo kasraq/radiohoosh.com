@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [Intelligence Explosion 2027: AI Futures Timelines Update Explained](https://share.transistor.fm/s/edd3e2bf): A new AI Futures timelines update suggests the intelligence explosion may arrive in 2027 after all. The hosts unpack what changed in the forecast and what it means. (2026-11-11)
 - [OpenAI and Upwork Study: How AI Is Changing Freelance Work](https://share.transistor.fm/s/1ffb6df9): OpenAI and Upwork published research on how AI is reshaping freelance work, from shifting job demand to new skill combinations and bigger budgets for AI-related projects. (2026-11-10)
 - [Anthropic Explains the Components of Agent Memory in AI Agents](https://share.transistor.fm/s/3c0c7aa5): Anthropic, the company behind Claude, published research called The Components of Agent Memory, breaking down the parts that let AI agents remember. We explain what it covers and why memory matters for long tasks. (2026-11-09)
 - [Nvidia Board Investigates Jensen Huang Over Alleged China Spy Link](https://share.transistor.fm/s/d469b27f): Nvidia's board has opened an independent investigation into CEO Jensen Huang over his relationship with Alice Huang, a Megaspeed executive reportedly recruited by China's Ministry of State Security to spy on Nvidia. (2026-11-09)
@@ -55,6 +56,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [انفجار هوش در ۲۰۲۷: به‌روزرسانی پیش‌بینی زمان‌بندی AI Futures](https://share.transistor.fm/s/0c7f3c24): به‌روزرسانی تازه‌ی AI Futures نشان می‌دهد انفجار هوش ممکن است در نهایت همان سال ۲۰۲۷ رخ دهد. در این قسمت بررسی می‌کنیم این پیش‌بینی چه می‌گوید و چه معنایی دارد. (2026-11-11)
 - [OpenAI و Upwork: هوش مصنوعی چطور کار فریلنسری را تغییر می‌دهد](https://share.transistor.fm/s/578abd93): OpenAI و Upwork پژوهش تازه‌ای درباره اثر هوش مصنوعی بر کار فریلنسری منتشر کرده‌اند؛ از جابه‌جایی تقاضا بین مشاغل تا ترکیب تازه مهارت‌ها و بودجه بیشتر پروژه‌های مرتبط با AI. (2026-11-10)
 - [Anthropic و اجزای حافظه در ایجنت‌های هوش مصنوعی](https://share.transistor.fm/s/33442db6): Anthropic، سازنده‌ی مدل‌های Claude، در یک مقاله‌ی پژوهشی اجزای مختلف حافظه در ایجنت‌های هوش مصنوعی را بررسی کرده است. در این قسمت می‌گوییم این مقاله درباره‌ی چیست و چرا حافظه برای کارهای طولانی مهم است. (2026-11-09)
 - [Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین](https://share.transistor.fm/s/ad463496): هیئت مدیره Nvidia تحقیقی مستقل درباره رابطه جنسن هوانگ، مدیرعامل شرکت، با آلیس هوانگ آغاز کرده است؛ مدیری در شرکت Megaspeed که طبق گزارش‌ها وزارت امنیت دولتی چین او را برای جاسوسی از Nvidia به کار گرفته است. (2026-11-09)

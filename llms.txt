@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [KPMG AI Agents Asked Better Audit Questions Than Human Accountants](https://share.transistor.fm/s/24fc7dc2): In a KPMG trial, AI agents tested on audit work asked sharper and more useful questions than human accountants, sparking a wide debate about the future of accounting jobs. (2026-11-19)
 - [Gemini 4 Neon: Google's New AI Model Rivals Claude Opus 5.5](https://share.transistor.fm/s/3942fe56): Google has released Gemini 4 Neon, and early reviewers say it is a real rival to Anthropic's Claude Opus 5.5. We look at the launch and what developers are saying. (2026-11-19)
 - [GPT-6.2 Astra and Sol: OpenAI's Cheaper Models Get Mixed Reviews](https://share.transistor.fm/s/49377a06): OpenAI released GPT-6.2 Astra and GPT-6.2 Sol, saying they are better at work tasks, coding and computer use while costing less. Testers praise the benchmark scores but disagree on what Astra is like to use. (2026-11-19)
 - [AI layoffs: job cuts, AI washing and what the labor data really shows](https://share.transistor.fm/s/01f114da): Companies increasingly name AI as the reason for job cuts, but the labor data tells a more complicated story. We look at AI washing and what happens to workers replaced by AI. (2026-11-17)
@@ -61,6 +62,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [KPMG: عامل‌های هوش مصنوعی در حسابرسی بهتر از حسابداران سؤال پرسیدند](https://share.transistor.fm/s/b3968057): در آزمایشی در KPMG، ایجنت‌های هوش مصنوعی در کار حسابرسی سؤال‌هایی دقیق‌تر و مفیدتر از حسابداران انسانی پرسیدند و بحث گسترده‌ای درباره آینده شغل حسابداری به راه افتاد. (2026-11-19)
 - [Gemini 4 Neon؛ مدل جدید Google رقیب جدی Claude Opus 5.5](https://share.transistor.fm/s/3ab361e7): Google مدل Gemini 4 Neon را منتشر کرده و نخستین بررسی‌ها آن را رقیبی واقعی برای Claude Opus 5.5 ساخته Anthropic می‌دانند. در این قسمت از این عرضه و واکنش توسعه‌دهندگان می‌گوییم. (2026-11-19)
 - [GPT-6.2 Astra و Sol؛ مدل‌های ارزان‌تر OpenAI و نظرهای متفاوت](https://share.transistor.fm/s/27af4df0): OpenAI دو مدل تازه به نام GPT-6.2 Astra و GPT-6.2 Sol معرفی کرده که به گفته خودش در کارهای اداری، کدنویسی و کار با کامپیوتر بهترند و ارزان‌تر تمام می‌شوند؛ اما آزمایش‌کنندگان درباره Astra هم‌نظر نیستند. (2026-11-19)
 - [هوش مصنوعی و تعدیل نیرو: AI washing و آنچه آمار بازار کار نشان می‌دهد](https://share.transistor.fm/s/bcb12f2a): شرکت‌ها بیش از پیش هوش مصنوعی را دلیل اخراج کارکنان معرفی می‌کنند، اما آمار بازار کار تصویر پیچیده‌تری نشان می‌دهد. از AI washing تا سرنوشت کارگرانی که با AI جایگزین شده‌اند. (2026-11-17)

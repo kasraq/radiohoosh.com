@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [OpenAI Distillation Defense: How It Stops Rivals Copying Its AI Models](https://share.transistor.fm/s/5e9913b5): OpenAI explains how it fights adversarial distillation, where rivals copy its AI by training their own models on its answers, using model training, usage monitoring and account bans. (2026-11-22)
 - [Microsoft Copilot at Ignite 2026: Intelligence Built for Work](https://share.transistor.fm/s/7e97229a): The hosts discuss Microsoft's Copilot announcements at Microsoft Ignite 2026 and what Microsoft means by expanding what's possible with intelligence built for work. (2026-11-20)
 - [KPMG AI Agents Asked Better Audit Questions Than Human Accountants](https://share.transistor.fm/s/24fc7dc2): In a KPMG trial, AI agents tested on audit work asked sharper and more useful questions than human accountants, sparking a wide debate about the future of accounting jobs. (2026-11-19)
 - [Gemini 4 Neon: Google's New AI Model Rivals Claude Opus 5.5](https://share.transistor.fm/s/3942fe56): Google has released Gemini 4 Neon, and early reviewers say it is a real rival to Anthropic's Claude Opus 5.5. We look at the launch and what developers are saying. (2026-11-19)
@@ -63,6 +64,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی](https://share.transistor.fm/s/913445b5): OpenAI توضیح داده چطور با تقطیر مدل (Distillation) مقابله می‌کند؛ روشی که رقبا با پرسیدن سؤال‌های بسیار و آموزش مدل خود روی پاسخ‌ها، هوش مصنوعی آن را کپی می‌کنند. (2026-11-22)
 - [Microsoft Copilot در Ignite 2026: هوش مصنوعی ساخته‌شده برای کار](https://share.transistor.fm/s/474b57dc): گفت‌وگویی درباره اعلام‌های Microsoft برای Copilot در کنفرانس Ignite 2026 و این‌که هوش مصنوعیِ ساخته‌شده برای محیط کار قرار است چه چیزهای تازه‌ای را ممکن کند. (2026-11-20)
 - [KPMG: عامل‌های هوش مصنوعی در حسابرسی بهتر از حسابداران سؤال پرسیدند](https://share.transistor.fm/s/b3968057): در آزمایشی در KPMG، ایجنت‌های هوش مصنوعی در کار حسابرسی سؤال‌هایی دقیق‌تر و مفیدتر از حسابداران انسانی پرسیدند و بحث گسترده‌ای درباره آینده شغل حسابداری به راه افتاد. (2026-11-19)
 - [Gemini 4 Neon؛ مدل جدید Google رقیب جدی Claude Opus 5.5](https://share.transistor.fm/s/3ab361e7): Google مدل Gemini 4 Neon را منتشر کرده و نخستین بررسی‌ها آن را رقیبی واقعی برای Claude Opus 5.5 ساخته Anthropic می‌دانند. در این قسمت از این عرضه و واکنش توسعه‌دهندگان می‌گوییم. (2026-11-19)

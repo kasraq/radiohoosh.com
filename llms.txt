@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [Claude Ship: Anthropic's AI Now Reviews, Fixes and Approves Code](https://share.transistor.fm/s/e9466482): Anthropic launched Claude Ship, letting Claude review pull requests, fix the problems it finds and approve code changes itself, taking over a checkpoint that used to belong to humans. (2026-11-24)
 - [AI in Ecommerce: How It Changes Shopping and Selling for B2B and B2C](https://share.transistor.fm/s/41231d46): How AI is reshaping online stores and marketplaces, from product recommendations and pricing to customer service and fraud checks, and how this differs between B2B buying and everyday B2C shopping. (2026-11-23)
 - [OpenAI Distillation Defense: How It Stops Rivals Copying Its AI Models](https://share.transistor.fm/s/5e9913b5): OpenAI explains how it fights adversarial distillation, where rivals copy its AI by training their own models on its answers, using model training, usage monitoring and account bans. (2026-11-22)
 - [Microsoft Copilot at Ignite 2026: Intelligence Built for Work](https://share.transistor.fm/s/7e97229a): The hosts discuss Microsoft's Copilot announcements at Microsoft Ignite 2026 and what Microsoft means by expanding what's possible with intelligence built for work. (2026-11-20)
@@ -65,6 +66,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [Claude Ship؛ هوش مصنوعی Anthropic کد را بررسی، اصلاح و تأیید می‌کند](https://share.transistor.fm/s/e6f72815): Anthropic محصول تازه‌ای به نام Claude Ship عرضه کرده که با آن Claude می‌تواند Pull Requestها را بررسی کند، ایرادها را خودش برطرف کند و تغییرات کد را تأیید کند. (2026-11-24)
 - [هوش مصنوعی در فروشگاه اینترنتی: تغییر خرید و فروش آنلاین در B2B و B2C](https://share.transistor.fm/s/4b065bcd): هوش مصنوعی چطور فروشگاه‌های اینترنتی و مارکت‌پلیس‌ها را تغییر می‌دهد؛ از پیشنهاد محصول و قیمت‌گذاری تا پشتیبانی مشتری و تشخیص تقلب، و تفاوتش در فروش B2B و B2C. (2026-11-23)
 - [OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی](https://share.transistor.fm/s/913445b5): OpenAI توضیح داده چطور با تقطیر مدل (Distillation) مقابله می‌کند؛ روشی که رقبا با پرسیدن سؤال‌های بسیار و آموزش مدل خود روی پاسخ‌ها، هوش مصنوعی آن را کپی می‌کنند. (2026-11-22)
 - [Microsoft Copilot در Ignite 2026: هوش مصنوعی ساخته‌شده برای کار](https://share.transistor.fm/s/474b57dc): گفت‌وگویی درباره اعلام‌های Microsoft برای Copilot در کنفرانس Ignite 2026 و این‌که هوش مصنوعیِ ساخته‌شده برای محیط کار قرار است چه چیزهای تازه‌ای را ممکن کند. (2026-11-20)

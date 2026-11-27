@@ -18,6 +18,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## English episodes
 
+- [Diseases Cured by AI: Tracker Site Sparks Debate on Medical Claims](https://share.transistor.fm/s/e9d551da): A new website lists diseases where AI is said to have helped find a cure or treatment. On Hacker News, commenters debated which entries are real breakthroughs and which give AI too much credit. (2026-11-27)
 - [Riemann Hypothesis and AI: What the Reported Proof Really Means](https://share.transistor.fm/s/fc4f4dcf): What is the Riemann Hypothesis, the 160-year-old puzzle about prime numbers? We look at reports that AI helped find a proof, what the AI actually did, and how mathematicians check a proof. (2026-11-25)
 - [Claude Ship: Anthropic's AI Now Reviews, Fixes and Approves Code](https://share.transistor.fm/s/e9466482): Anthropic launched Claude Ship, letting Claude review pull requests, fix the problems it finds and approve code changes itself, taking over a checkpoint that used to belong to humans. (2026-11-24)
 - [AI in Ecommerce: How It Changes Shopping and Selling for B2B and B2C](https://share.transistor.fm/s/41231d46): How AI is reshaping online stores and marketplaces, from product recommendations and pricing to customer service and fraud checks, and how this differs between B2B buying and everyday B2C shopping. (2026-11-23)
@@ -67,6 +68,7 @@ Radio Hoosh ("hoosh" means intelligence in Farsi) is a podcast about artificial 
 
 ## Farsi episodes
 
+- [هوش مصنوعی و درمان بیماری‌ها: سایت Diseases Cured by AI زیر ذره‌بین](https://share.transistor.fm/s/02d9c352): یک وب‌سایت تازه فهرستی از بیماری‌هایی نگه می‌دارد که گفته می‌شود هوش مصنوعی به یافتن درمانشان کمک کرده است. کاربران Hacker News بحث کردند کدام مورد پیشرفت واقعی پزشکی است و کدام سهم AI را بزرگ‌نمایی می‌کند. (2026-11-27)
 - [فرضیه ریمان و هوش مصنوعی: ماجرای اثبات و سهم واقعی AI](https://share.transistor.fm/s/f99a3da1): فرضیه ریمان، معمای ۱۶۰ ساله درباره پخش‌شدن اعداد اول، چیست؟ گزارش‌های کمک هوش مصنوعی به اثبات آن را بررسی می‌کنیم و می‌گوییم ریاضیدان‌ها چطور یک اثبات را می‌سنجند. (2026-11-25)
 - [Claude Ship؛ هوش مصنوعی Anthropic کد را بررسی، اصلاح و تأیید می‌کند](https://share.transistor.fm/s/e6f72815): Anthropic محصول تازه‌ای به نام Claude Ship عرضه کرده که با آن Claude می‌تواند Pull Requestها را بررسی کند، ایرادها را خودش برطرف کند و تغییرات کد را تأیید کند. (2026-11-24)
 - [هوش مصنوعی در فروشگاه اینترنتی: تغییر خرید و فروش آنلاین در B2B و B2C](https://share.transistor.fm/s/4b065bcd): هوش مصنوعی چطور فروشگاه‌های اینترنتی و مارکت‌پلیس‌ها را تغییر می‌دهد؛ از پیشنهاد محصول و قیمت‌گذاری تا پشتیبانی مشتری و تشخیص تقلب، و تفاوتش در فروش B2B و B2C. (2026-11-23)
